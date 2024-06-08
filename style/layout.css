@@ -5,6 +5,57 @@
   object-fit: contain;
 }
 
+.front-tekst {
+  margin: 20px;
+}
+.container {
+  display: grid;
+  width: 100%;
+  height: 400px;
+}
+
+img.bordi {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.frontphoto {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.myself {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.tema2 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.tema3 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.tema4 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.tema5 {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.bordi,
+h1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  align-self: end;
+}
+
 @media (min-width: 800px) {
   .grid_1-1 {
     display: grid;

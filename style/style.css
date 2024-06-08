@@ -1,8 +1,9 @@
 @media (min-width: 800px) {
   ul {
     display: flex;
-    width: 100px;
+    width: 80px;
     padding: 50px;
+
     cursor: pointer;
     list-style-type: none;
     gap: 150px;
@@ -18,12 +19,28 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+}
+
+h1 {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  text-align: center;
+  font-size: 45px;
+}
+
 header {
   background-color: #f9e9e5;
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 35px;
   margin: 30px;
   padding: 30px;
 }
