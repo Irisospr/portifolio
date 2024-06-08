@@ -1,0 +1,33 @@
+@media (min-width: 800px) {
+  ul {
+    display: flex;
+    width: 100px;
+    padding: 50px;
+    cursor: pointer;
+    list-style-type: none;
+    gap: 150px;
+    object-fit: contain;
+  }
+}
+
+a {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  text-decoration: none;
+}
+
+header {
+  background-color: #f9e9e5;
+}
+
+.logo {
+  font-size: 25px;
+  margin: 30px;
+  padding: 30px;
+}
+
+body {
+  background-color: #fff8f3;
+}
