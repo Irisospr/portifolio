@@ -19,11 +19,37 @@ a {
   text-decoration: none;
 }
 
+.fronttekst,
+h3 {
+  font-family: "futura-pt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  color: #d91e41;
+  line-height: 1.4;
+}
+
+.omtekst,
 p {
   font-family: "futura-pt", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 25px;
+  font-size: 22px;
+  color: #d91e41;
+  line-height: 1.6;
+}
+
+.omtekst {
+  margin: 60px;
+}
+
+.portitekst,
+h1 {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  font-size: 40px;
 }
 
 h1 {
@@ -31,8 +57,16 @@ h1 {
   font-style: normal;
   font-weight: 700;
   color: #d91e41;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  font-size: 35px;
   text-align: center;
-  font-size: 45px;
 }
 
 header {
@@ -41,7 +75,7 @@ header {
 
 .logo {
   font-size: 35px;
-  margin: 30px;
+
   padding: 30px;
 }
 .dropdown {
@@ -52,7 +86,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f7f3eb;
+  background-color: #f9e9e5;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -75,4 +109,43 @@ header {
 
 body {
   background-color: #fff8f3;
+}
+
+.portlink,
+.cvlink {
+  text-decoration: none;
+  color: #d91e41;
+  font-size: 20px;
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.portbtn,
+.cvbtn {
+  display: flex;
+  align-items: center;
+  background-color: #f9c8cb;
+
+  padding: 10px 20px;
+  border: 2px solid #d91e41;
+  border-radius: 8px;
+  width: fit-content;
+  text-decoration: none;
+  position: absolute;
+  top: 120%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+h5 {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  font-size: 12px;
+}
+footer {
+  height: 50px;
+  margin: 30px;
 }
