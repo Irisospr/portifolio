@@ -21,14 +21,13 @@ img.bordi {
 img.frontphoto {
   max-width: 500px;
   max-height: 700px;
-
-  object-fit: cover;
+  border: 5px solid #f9c8cb;
 }
 
 img.myself {
   max-width: 500px;
   max-height: 700px;
-  margin: 50px;
+  border: 5px solid #f9c8cb;
 }
 
 img.tema2 {
@@ -76,6 +75,9 @@ h1 {
   padding: 10px;
 }
 
+.tema-tekst {
+  margin: 70px;
+}
 @media (max-width: 800px) {
   .container,
   h1 {
