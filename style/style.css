@@ -138,6 +138,14 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.portbtn a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #f9c8cb;
+}
+
 h5 {
   font-family: lust, serif;
   font-style: normal;
