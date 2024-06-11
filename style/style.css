@@ -43,6 +43,10 @@ p {
   margin: 60px;
 }
 
+.tema {
+  margin: 30px;
+}
+
 .portitekst,
 h1 {
   font-family: lust, serif;
@@ -57,7 +61,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   color: #d91e41;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 h2 {
@@ -142,12 +146,13 @@ body {
   width: fit-content;
   text-decoration: none;
   position: absolute;
-  top: 120%;
-  left: 25%;
-  transform: translate(-50%, -50%);
 }
 
 .portbtn a:hover {
+  text-decoration: underline;
+}
+
+.cvbtn a:hover {
   text-decoration: underline;
 }
 
