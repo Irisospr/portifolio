@@ -69,6 +69,15 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: lust, serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #d91e41;
+  font-size: 30px;
+  text-align: center;
+}
+
 header {
   background-color: #f9e9e5;
 }
