@@ -50,6 +50,20 @@ img.tema5 {
   max-height: 700px;
 }
 
+img.tommipresent {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.bert {
+  max-width: 100%;
+  max-height: 100%;
+}
+img.lighth {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .slideshow img {
   max-width: 50%;
   max-height: 80%;
@@ -75,30 +89,6 @@ img.tema5 {
 .slideshow {
   position: relative;
   scroll-snap-type: x mandatory;
-}
-
-img.wireframe {
-  max-width: 100%;
-  max-height: 100%;
-  border: 5px solid #f9c8cb;
-}
-
-img.grid {
-  max-width: 100%;
-  max-height: 100%;
-  border: 5px solid #f9c8cb;
-}
-
-img.media {
-  max-width: 100%;
-  max-height: 100%;
-  border: 5px solid #f9c8cb;
-}
-
-img.font {
-  max-width: 100%;
-  max-height: 100%;
-  border: 5px solid #f9c8cb;
 }
 
 .container {
