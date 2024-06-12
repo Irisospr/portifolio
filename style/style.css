@@ -124,8 +124,7 @@ body {
   background-color: #fff8f3;
 }
 
-.portlink,
-.cvlink {
+.portlink {
   text-decoration: none;
   color: #d91e41;
   font-size: 20px;
@@ -134,8 +133,7 @@ body {
   font-weight: 700;
 }
 
-.portbtn,
-.cvbtn {
+.portbtn {
   display: flex;
   align-items: center;
   background-color: #f9c8cb;
